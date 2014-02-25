@@ -1,0 +1,107 @@
+/*Copy right(c) 2012 Team Dolphin  Fukazawa Shun*/
+
+
+/*-------------------------------------------------------‘S‘Ì‚ÌƒŒƒCƒAƒEƒg------------------------------*/
+body {
+    width:1350px;
+    height:700px;
+    margin: 0 auto; 
+    margin-top: 50px;
+    background-color:#fff;
+}
+section{
+    width:1300px;
+    background-color:#fff;
+    text-align:left;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-size:12px;
+    color:#333;
+}
+section p{
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-size:12px;
+    color:#333;
+}
+/*-------------------------------------------------------ƒuƒƒbƒN‚Ì‘‡İ’è---------------------------*/
+
+section, body, #menu{
+    height:800px;
+
+}
+section ,#logo ,#contents ,#news ,#menu{
+    display : block;
+    font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
+    font-family:'ƒqƒ‰ƒMƒmŠpƒS Std W8','Hiragino Kaku Gothic Std';
+    font-family: Georgia, 'Hiragino Kaku Gothic Std', Meiryo, serif;
+}
+/*-----------------------------------ƒƒCƒ“İ’è------------------------------------*/
+section h1{
+    font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
+    font-family:'ƒqƒ‰ƒMƒmŠpƒS Std W8','Hiragino Kaku Gothic Std';
+    font-size:24px;
+    color:#333;
+}
+
+/*--------------------------------------------------------‰¡ƒƒjƒ…[‚Ìİ’è---------------------------*/
+
+#menu{
+    float:left;
+    width:285px;
+    background: -moz-linear-gradient(left,#ccc,#ddd 75%,#eee 90%,#fff);
+    background: -webkit-gradient(linear, left top, right top, from(#ccc),
+		color-stop(0.7, #ddd),
+		color-stop(0.9, #eee),
+		to(#fff)); 
+    background-color:#eee;
+    background-rpeat:no-repeat;
+}
+#menu a{
+    font-weight: 600;
+}
+#menu .fade ul {
+    margin:0 auto;
+    padding:0px;
+    border:1px #ddd solid;
+    list-style-type: none;
+    width:185px;
+    height:500px;
+    text-decoration:underline;
+}
+#menu .fade li{
+    display: block;
+    width:200px;
+    height:10px;
+    margin-bottom:70px;
+    list-style-type: none;
+    text-align:center;
+    font-size:20px;
+    text-shadow:3px 3px 3px #999;
+    color:#000;
+}
+#menu .fade a:link{
+    color: #000;
+}
+#menu .fade a:visited{
+    color: #000;
+}
+#menu .fade a:hover{
+    text-shadow:4px 4px 10px #777;
+    color:#000;
+}
+
+#topics{
+    height:120px;
+    width:200px; 
+    overflow:auto;
+    border:1px #ccc solid;
+    margin: 0 auto;
+}
+#topics h1{
+    background-color:#ccc;
+    text-align:center;
+    font-size:24px;
+    margin: 0px;
+    padding: 0px;
+    text-shadow:3px 3px 3px #999;
+}
+

@@ -1,0 +1,202 @@
+/*Copy right(c) 2012 Team Dolphin  Fukazawa Shun*/
+
+
+/*-------------------------------------------------------‘S‘Ì‚ÌƒŒƒCƒAƒEƒg------------------------------*/
+body {
+    width:1350px;
+    height:700px;
+    margin: 0 auto; 
+    margin-top: 50px;
+    background-color:#fff;
+}
+section{
+    width:1300px;
+    background-color:#fff;
+    text-align:left;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-size:12px;
+    color:#333;
+}
+
+/*-------------------------------------------------------ƒuƒƒbƒN‚Ì‘‡İ’è---------------------------*/
+
+section, body, #menu{
+    height:800px;
+
+}
+section ,#logo ,#contents ,#news ,#menu{
+    display : block;
+    font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
+    font-family:'ƒqƒ‰ƒMƒmŠpƒS Std W8','Hiragino Kaku Gothic Std';
+    font-family: Georgia, 'Hiragino Kaku Gothic Std', Meiryo, serif;
+}
+/*-----------------------------------ƒƒCƒ“İ’è------------------------------------*/
+section h1{
+    font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
+    font-family:'ƒqƒ‰ƒMƒmŠpƒS Std W8','Hiragino Kaku Gothic Std';
+    font-size:24px;
+    color:#333;
+}
+
+section ul{
+    width:1300px;
+    height:40px;
+    margin:0px;
+    padding:0px;
+}
+section ul li{
+    float:left;
+    display:inline;
+    list-style-type:none;
+    text-align:center;
+    background:#fff;
+    width:246px;
+    height:40px;
+    margin:0 auto;
+    padding: 2px;
+}
+section ul li a{
+    line-height: 30px;
+    text-decoration: none;
+    display:block;
+    width:100%;
+    height:100%;
+}
+section ul li a:link, section ul li a:visited{
+    background-color:#ddd;
+    color:#000;
+    height:40px;
+}
+section ul li a:hover{
+    background-color:#fff;
+}
+section .tab_contents{
+    height:700px;
+}
+section .tab_contents div.page{
+    float:left;
+    width:1000px;
+    height:600px;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+}
+#page1{
+    background-color:#fff;
+    overflow:auto;
+}
+#page1 h1{
+    font-size:14px;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-weight: 100;
+}
+#page2{
+    background-color:#fff;
+}
+#page2 h1{
+    font-size:14px;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-weight: 100;
+}
+#page3{
+    background-color:#fff;
+}
+#page3 h1{
+    font-size:14px;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-weight: 100;
+}
+#page4{
+    background-color:#fff;
+}
+#page4 h1{
+    font-size:14px;
+    font-family:"ƒqƒ‰ƒMƒm–¾’© Pro W6", "Hiragino Mincho Pro", "HGS–¾’©E", "‚l‚r ‚o–¾’©", serif;
+    font-weight: 100;
+}
+/*--------------------------------------------------------------------------------*/
+#logo {
+    margin: 0 auto;
+    width: 600px;
+    height: 424px;
+    margin-top: 10%;
+}
+#contents{
+    width:842px;
+    margin:0 auto;
+    text-align:center;
+}
+#contents h1{
+    margin:0px;
+    font-size:20px;
+}
+#contents h2{
+    margin:0px;
+    font-size:16px;
+}
+#contents h3{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size:14px;
+}
+/*--------------------------------------------------------‰¡ƒƒjƒ…[‚Ìİ’è---------------------------*/
+
+#menu{
+    float:left;
+    width:285px;
+    background: -moz-linear-gradient(left,#ccc,#ddd 75%,#eee 90%,#fff);
+    background: -webkit-gradient(linear, left top, right top, from(#ccc),
+		color-stop(0.7, #ddd),
+		color-stop(0.9, #eee),
+		to(#fff)); 
+    background-color:#eee;
+    background-repeat:no-repeat;
+}
+#menu a{
+    font-weight: 600;
+}
+#menu .fade ul {
+    margin:0 auto;
+    padding:0px;
+    border:1px #ddd solid;
+    list-style-type: none;
+    width:185px;
+    height:500px;
+    text-decoration:underline;
+}
+#menu .fade li{
+    display: block;
+    width:200px;
+    height:10px;
+    margin-bottom:70px;
+    list-style-type: none;
+    text-align:center;
+    font-size:20px;
+    text-shadow:3px 3px 3px #999;
+    color:#000;
+}
+#menu .fade a:link{
+    color: #000;
+}
+#menu .fade a:visited{
+    color: #000;
+}
+#menu .fade a:hover{
+    text-shadow:4px 4px 10px #777;
+    color:#000;
+}
+
+#topics{
+    height:120px;
+    width:200px; 
+    overflow:auto;
+    border:1px #ccc solid;
+    margin: 0 auto;
+}
+#topics h1{
+    background-color:#ccc;
+    text-align:center;
+    font-size:24px;
+    margin: 0px;
+    padding: 0px;
+    text-shadow:3px 3px 3px #999;
+}
+
